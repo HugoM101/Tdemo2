@@ -1,0 +1,52 @@
+<linker>
+	<assembly fullname="Assembly-CSharp" ignoreIfMissing="1">
+		<type fullname="InventoryItemHandler">
+			<method name="RemoveItem"/>
+			<method name="RemoveItem"/>
+		</type>
+		<type fullname="InventoryManager">
+			<method name="EnableItemsRemove"/>
+			<method name="ListItems"/>
+		</type>
+		<type fullname="Keypad">
+			<method name="ClearField"/>
+			<method name="Execute"/>
+			<method name="Exit"/>
+			<method name="Number"/>
+			<method name="Number"/>
+			<method name="Number"/>
+			<method name="Number"/>
+			<method name="Number"/>
+			<method name="Number"/>
+			<method name="Number"/>
+			<method name="Number"/>
+			<method name="Number"/>
+			<method name="PlayVoiceOver"/>
+			<method name="PlayVoiceOver"/>
+			<method name="PlayVoiceOver"/>
+			<method name="PlayVoiceOver"/>
+			<method name="PlayVoiceOver"/>
+			<method name="PlayVoiceOver"/>
+			<method name="PlayVoiceOver"/>
+			<method name="PlayVoiceOver"/>
+			<method name="PlayVoiceOver"/>
+		</type>
+		<type fullname="SubtitleManager">
+			<method name="ShowSubtitle"/>
+			<method name="ShowSubtitle"/>
+			<method name="ShowSubtitle"/>
+			<method name="ShowSubtitle"/>
+			<method name="ShowSubtitle"/>
+			<method name="ShowSubtitle"/>
+			<method name="ShowSubtitle"/>
+			<method name="ShowSubtitle"/>
+			<method name="ShowSubtitle"/>
+		</type>
+	</assembly>
+	<assembly fullname="UnityEngine.CoreModule" ignoreIfMissing="1">
+		<type fullname="UnityEngine.GameObject">
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+		</type>
+	</assembly>
+</linker>
